@@ -17,8 +17,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/signup" do
-    #your code here
-
+    user = User.new()
   end
 
   get '/account' do
